@@ -1,3 +1,0 @@
-# laravel-chirper
-Bootcamp 
-
