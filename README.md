@@ -32,6 +32,25 @@ Open docker using the new alias -> sail up
 ## Error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'laravel.sessions' doesn't exist (Connection: mysql, SQL: select * from `sessions` where `id` = BUP4390325pwQtqJKeTnSODCRDNhmj5dCvYxWQrT limit 1)
 sail artisan migrate
 
+## Error executing -> composer require laravel/breeze --dev ->  /var/www/html/vendor/laravel/breeze does not exist and could not be created:  
 
+Generate a token:
+- Go to your GitHub account: [GitHub Tokens](https://github.com/settings/tokens)
+- Click on Generate new token (classic).
+- Give it a note (e.g., "Composer Access").
+- Select appropriate scopes (for Composer, typically just repo access is enough).
+- Copy the token (you won't be able to see it again after you leave the page).
 
+Permissions for all the project
+- chmod -R gu+w chirper/
+- chmod -R guo+w chirper/
+- chmod -R 777 chirper/
 
+## Error executing -> npm run dev 
+
+> dev
+> vite
+
+sh: 1: vite: not found
+
+run "sail npm install" before
