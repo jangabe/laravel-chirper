@@ -58,3 +58,7 @@ run "sail npm install" before
 ## Error executing sail php artisan make:volt chirps/create --class
 mkdir -p resources/views/livewire/chirps
 chmod 777 resources/views/livewire/chirps
+
+## Error trying to save changes -> Failed to save 'list.blade.php': Insufficient permissions. Select 'Retry as Sudo' to retry as superuser.
+- sudo chmod -R gu+w storage
+- sudo chmod -R guo+w storage
