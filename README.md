@@ -54,3 +54,7 @@ Permissions for all the project
 sh: 1: vite: not found
 
 run "sail npm install" before
+
+## Error executing sail php artisan make:volt chirps/create --class
+mkdir -p resources/views/livewire/chirps
+chmod 777 resources/views/livewire/chirps
