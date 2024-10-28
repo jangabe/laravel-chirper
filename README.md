@@ -62,3 +62,7 @@ chmod 777 resources/views/livewire/chirps
 ## Error trying to save changes -> Failed to save 'list.blade.php': Insufficient permissions. Select 'Retry as Sudo' to retry as superuser.
 - sudo chmod -R gu+w storage
 - sudo chmod -R guo+w storage
+
+## After any new file must be add the permissions 
+- sudo chmod -R gu+w <path>
+- sudo chmod -R guo+w <path>
